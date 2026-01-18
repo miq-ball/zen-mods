@@ -226,7 +226,7 @@
     ) {
         --zen-sidebar-width: var(--theme-sidebar_expand_on_hover-expanded_width) !important;
         &::before {
-            opacity: 1.0;
+            opacity: 10.0;
             transition: 60ms opacity ease-in, width ease-in-out var(--theme-sidebar_expand_on_hover-transition_speed);
         }
     }
@@ -316,4 +316,5 @@
             }
         }
     }
+
 }
